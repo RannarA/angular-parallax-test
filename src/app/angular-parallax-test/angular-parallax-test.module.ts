@@ -2,11 +2,13 @@ import {AngularParallaxTestComponent} from './angular-parallax-test/angular-para
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule} from '@angular/forms';
+import {Parallax, ParallaxConfig} from 'ngx-parallax';
 
 @NgModule({
   declarations: [
     // components
-    AngularParallaxTestComponent
+    AngularParallaxTestComponent,
+    Parallax
   ],
   imports: [
     CommonModule,
